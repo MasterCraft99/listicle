@@ -1,0 +1,113 @@
+html, body {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../Images/web.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    width: 780px;
+    text-align: center;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.foto-perfil {
+    background-image: url(../Images/WhatsApp\ Image\ 2022-09-30\ at\ 10.38.22\ PM.jpeg);
+    background-size: cover;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    border: 1px solid white;
+}
+
+.datos-perfil {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #listicle-body {
+      width: 66.67%;
+      position:relative;
+  }
+  
+  .nombre-tecnologia {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+  }
+  
+  .division {
+    height: 20px;
+  }
+  
+  .contenedor-numero {
+    position:absolute;
+    right:100%;
+  }
+  
+  .numero {
+    position:absolute;
+    right:40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:  rgba(0, 0, 0, 0.25);
+  }
+  
+  .texto-tecnologia {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    margin:0px;
+  }
+  
+  .tecnologia {
+    padding:60px 0px;
+  }
+  
+  a {
+    color: #42b4d6;
+    text-decoration: none;
+    font-weight:normal;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    text-decoration:underline;
+  }
+  
+  img {
+    width:100%;
+  }
